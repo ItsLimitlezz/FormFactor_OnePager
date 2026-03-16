@@ -8,15 +8,21 @@
 .sub{max-width:760px;opacity:.95;font-size:1.08rem}
 .section{padding:64px 0}
 .alt{background:linear-gradient(180deg,#f7f8fb 0%, #ffffff 100%)}
-.section-title{font-size:1.5rem;margin-bottom:12px}
+.section-title{font-size:1.6rem;margin-bottom:12px}
 .section-lead{max-width:900px;font-size:1.08rem}
-.grid-2{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:start}
-.media-frame{background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:20px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;box-shadow:0 18px 40px rgba(0,0,0,.08)}
+.grid-2{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:start}
+.kicker{text-transform:uppercase;letter-spacing:.25em;font-size:.7rem;color:#6b7280;margin-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.stats div{background:#111;color:#fff;border-radius:12px;padding:10px 12px;text-align:center}
+.stats strong{display:block;font-size:1.2rem}
+.stats span{font-size:.8rem;opacity:.8}
+.media-stack{display:grid;gap:12px}
+.media-frame{background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:18px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;box-shadow:0 18px 40px rgba(0,0,0,.08)}
 .media-frame.accent{background:linear-gradient(135deg,#ffffff 0%,#f2f4ff 45%,#ffecee 100%);border:1px solid #e6e8ff}
-.media-label{font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:#6b7280}
+.media-label{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:#6b7280}
 .media-frame img{width:min(520px,100%);height:auto;filter:drop-shadow(0 16px 40px rgba(0,0,0,.25))}
 .bullets{margin:10px 0 12px}
-.chips{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.chips{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
 .chips span{font-size:.85rem;background:#111;color:#fff;padding:6px 10px;border-radius:999px}
 .card{background:#fff;border:1px solid #e5e7eb;border-radius:20px;padding:20px;box-shadow:0 18px 40px rgba(0,0,0,.08)}
 .team{display:flex;gap:16px;flex-wrap:wrap}
