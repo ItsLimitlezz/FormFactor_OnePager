@@ -1,0 +1,16 @@
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,system-ui,Arial,sans-serif;color:#111;background:#fff;line-height:1.6}a{text-decoration:none}h1,h2{letter-spacing:-.02em}ul{padding-left:1.1rem}li{margin:.2rem 0}
+.container{max-width:1000px;margin:0 auto;padding:0 24px}
+.hero{padding:90px 0 70px;background:#0b0b0f;color:#fff}
+.eyebrow{text-transform:uppercase;letter-spacing:.25em;font-size:.75rem;opacity:.7;margin-bottom:16px}
+.hero h1{font-size:3rem;line-height:1.1;margin-bottom:16px}
+.sub{font-size:1.1rem;opacity:.85;max-width:720px}
+.cta-row{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
+.btn{display:inline-block;background:#fff;color:#0b0b0f;padding:12px 18px;border-radius:8px;font-weight:600}
+.btn.ghost{background:transparent;color:#fff;border:1px solid #fff}
+.section{padding:70px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{border:1px solid #e5e7eb;border-radius:12px;padding:18px;background:#fff;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.dark{background:#111;color:#fff}
+.dark .btn{background:#fff;color:#111}
+.footer{padding:30px 0;border-top:1px solid #e5e7eb}
+@media(max-width:720px){.hero h1{font-size:2.2rem}}
