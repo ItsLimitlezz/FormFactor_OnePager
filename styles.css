@@ -1,15 +1,16 @@
 *{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,system-ui,Arial,sans-serif;color:#111;background:#fff;line-height:1.6}a{text-decoration:none}h1,h2{letter-spacing:-.02em}ul{padding-left:1.1rem}li{margin:.2rem 0}
-.container{max-width:1100px;margin:0 auto;padding:0 24px}
+.container{max-width:1150px;margin:0 auto;padding:0 24px}
 .hero{position:relative;padding:90px 0 80px;color:#fff;overflow:hidden;background:#0b0b0f}
 .hero-bg{position:absolute;inset:0;background:url('Assets/Products/DSC06881.jpg') center/cover no-repeat;filter:brightness(.35) saturate(1.1) contrast(1.1)}
 .hero-glow{position:absolute;inset:-20% 40% 0 -10%;background:radial-gradient(circle at 30% 30%,rgba(255,58,58,.45),transparent 60%);mix-blend-mode:screen;opacity:.7}
 .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
-.logo{width:220px;height:auto;margin-bottom:18px;opacity:.95}
-.hero h1{font-size:3.1rem;line-height:1.1;margin-bottom:16px;text-transform:uppercase;letter-spacing:.02em}
-.sub{font-size:1.05rem;opacity:.9;max-width:720px}
+.logo{width:220px;height:auto;margin-bottom:14px;opacity:.95}
+.hero h1{font-size:3.1rem;line-height:1.1;margin-bottom:10px;text-transform:uppercase;letter-spacing:.02em}
+.tagline{font-size:1.1rem;font-weight:600;margin-bottom:10px}
+.sub{font-size:1.02rem;opacity:.9;max-width:720px}
 .hero-media{display:flex;justify-content:center}
 .product{width:min(520px,100%);border-radius:20px;box-shadow:0 30px 80px rgba(0,0,0,.7)}
-.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px}
+.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
 .hero-stats div{background:rgba(10,10,14,.7);border:1px solid #2a2a33;padding:12px;border-radius:10px;backdrop-filter:blur(6px)}
 .hero-stats strong{display:block;font-size:.95rem}
 .hero-stats span{opacity:.7;font-size:.85rem}
